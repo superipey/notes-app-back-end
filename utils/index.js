@@ -1,5 +1,5 @@
 const mapDBToModel = ({
-                        id,
+  id,
                         title,
                         body,
                         tags,
@@ -14,4 +14,4 @@ const mapDBToModel = ({
   updatedAt: updated_at,
 });
 
-module.exports = { mapDBToModel };
+module.exports = {mapDBToModel};
